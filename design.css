@@ -216,28 +216,25 @@ body div[ltype*=notice] .sender {
 body div.line[ltype*=privmsg]:not(.selectedUser),
 body div.line[ltype*=action]:not(.selectedUser) {
     transition-property: border-top, border-bottom, background-color;
-	transition-duration: 0.5s, 0.5s, 0.5s;
+	transition-duration: 0.4s, 0.4s, 0.4s;
 }
 
 body div.line[ltype*=privmsg] .time:not(.selectedUser),
 body div.line[ltype*=action] .time:not(.selectedUser) {
-    transition: color 0.5s;
+    transition: color 0.4s;
 }
 
 body div.line.selectedUser[highlight=false] .time {
-    transition: color 0.5s ease-in;
+    transition: color 0.4s ease-in;
 	color: #000;
 }
 
 body div.line.selectedUser[highlight=false] {
-    transition-property: border-top, border-bottom, background-color;
-	transition-duration: 0.5s, 0.5s, 0.5s;
-
+    transition-property: background-color;
+	transition-duration: 0.4s;
   	z-index: 190;
   	position: relative;
-	border-top: 1px solid #FC5AF8 !important;
-	border-bottom: 1px solid #FC5AF8 !important;
-  	background-color: rgba(246, 70, 255, 0.2) !important;
+  	background-color: rgba(0, 238, 82, 0.2) !important;
 }
 
 /* PRIVMSG */
