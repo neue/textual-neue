@@ -188,6 +188,12 @@ div[id=mark] {
 	margin-bottom: 4px;
 }
 
+/* Historic Line */
+
+.historic {
+	opacity: 0.6;
+}
+
 /* NOTICE/CTCP/WALLOPS */
 
 body div.line[ltype*=ctcp],
